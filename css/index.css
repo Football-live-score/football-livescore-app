@@ -1,0 +1,134 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-top-navigation {
+  width: 1235px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.home-topnav {
+  display: flex;
+  padding: 16px 24px;
+  position: relative;
+  align-items: center;
+  border-color: rgba(211, 211, 211, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  background-color: rgba(246, 246, 244, 1);
+}
+.Flex{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+.home-search-bar {
+    outline: none;
+  width: 548px;
+  display: flex;
+  padding: 10px 8px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 204px;
+  border-radius: 6px;
+  background-color: rgba(230, 230, 230, 1);
+}
+.home-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  margin-right: 8px;
+}
+.home-text {
+  color: var(--dl-color-default-darkgray);
+  width: 474px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.home-profile {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+.home-button {
+    color: white;
+  display: flex;
+  padding: 8px 16px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 24px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: rgba(86, 66, 169, 1);
+  cursor: pointer;
+}
+.home-text2 {
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.home-icon1 {
+  width: 104px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.home-frame {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-right: 16px;
+}
+.home-frame1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-right: 16px;
+}
+.home-frame2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  
+}
+.home-ellipse2 {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  border-color: transparent;
+}
