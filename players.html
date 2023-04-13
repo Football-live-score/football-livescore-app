@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Live Score app - Players</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link icons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- CSS File Linking -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/players.css" />
+  </head>
+  <body>
+    <!-- header Section -->
+    <div class="header">
+      <div class="lowerSection">
+        <div class="logoDiv">
+          <img src="./imges/logo-blue-dark.png" alt="Logo" class="logo" />
+        </div>
+        <div class="navBar">
+          <ul class="navList">
+            <li class="navItem">
+              <a href="index.html" class="navLink">Home</a>
+            </li>
+            <li class="navItem">
+              <a href="players.html" class="navLink">Playes</a>
+            </li>
+            <li class="navItem">
+              <a href="match.html" class="navLink">Matches</a>
+            </li>
+          </ul>
+          <small>*Only club representatives.</small>
+          <div class="button">
+            <a href="login.html">LOG IN</a>
+          </div>
+        </div>
+
+        <div class="navBarBtn">
+          <i class="uil uil-bars icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- Players Section -->
+      <form class="Form">
+        <input
+          type="text"
+          class="Search-text"
+          placeholder="🔍 Search player name 👉🏽 messi"
+        />
+      </form>
+      <section>
+        <div id="players-section"></div>
+        <div class="custom-loader"></div>
+      </section>
+    </main>
+    <!-- footer section starts here =============================================================-->
+    <div class="footer footer-margin">
+      <div class="footerContent container grid">
+        <div class="col firstCol">
+          <img
+            src="./imges/logo-blue-dark.png"
+            alt="Logo Image"
+            class="footerLogo"
+          />
+          <span class="text">Soccer League </span>
+          <!-- <p>We celebrate our talents and generations!</p> -->
+          <div class="socials flex">
+            <a href="https://www.facebook.com/DuraanAli" target="_blank">
+              <i class="uil uil-facebook-f icon"></i>
+            </a>
+            <a href="mailto:gabischooll@gmail.com" target="_blank">
+              <i class="uil uil-envelope-heart icon"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="uil uil-whatsapp icon"></i>
+            </a>
+            <a href="https://www.youtube.com/@DuraanAli" target="_blank">
+              <i class="uil uil-youtube icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <h6>MAIN LINKS</h6>
+          <a href="index.html" class="footerLink">Home</a>
+          <a href="about.html" class="footerLink">About</a>
+          <a href="clubs.html" class="footerLink">Clubs</a>
+          <a href="" class="footerLink">News</a>
+        </div>
+        <div class="col">
+          <h6>STATS</h6>
+          <a href="" class="footerLink">Table</a>
+          <a href="" class="footerLink">Results</a>
+          <a href="" class="footerLink">Fixtures</a>
+          <a href="" class="footerLink">Transfers</a>
+        </div>
+        <div class="col">
+          <h6>COMMUNITIIES</h6>
+          <a href="" class="footerLink">Sponsors</a>
+          <a href="" class="footerLink">Fun Zone</a>
+          <a href="" class="footerLink"></a>
+          <a href="" class="footerLink">Galleries</a>
+          <a href="" class="footerLink">Partnerships</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section ends here =============================================================-->
+
+    <script src="./js/players.js"></script>
+    <script src="./js/nav.js"></script>
+    <!-- swiper.js link -->
+    <script src="./js/swiper.js"></script>
+  </body>
+</html>
